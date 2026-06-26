@@ -161,7 +161,7 @@ export default function ContactPage() {
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="subject">Subject</Label>
-                      <Select onValueChange={(value) => setValue("subject", value)}>
+                      <Select onValueChange={(value: string) => setValue("subject", value)}>
                         <SelectTrigger>
                           <SelectValue placeholder="Select a topic" />
                         </SelectTrigger>
