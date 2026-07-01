@@ -34,7 +34,7 @@ export function Navbar() {
             <Button variant="ghost" size="sm" asChild className="mr-2">
               <Link href="/dashboard">Dashboard</Link>
             </Button>
-            <UserButton afterSignOutUrl="/" />
+            <UserButton />
           </>
         )}
       </div>

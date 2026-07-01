@@ -117,7 +117,7 @@ export default function RequestServicePage() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="serviceType">Service Needed</Label>
-                    <Select onValueChange={(value) => setValue("serviceType", value)}>
+                    <Select onValueChange={(value: string) => setValue("serviceType", value)}>
                       <SelectTrigger>
                         <SelectValue placeholder="Select a service" />
                       </SelectTrigger>

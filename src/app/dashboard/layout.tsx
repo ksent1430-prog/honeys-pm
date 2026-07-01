@@ -1,5 +1,7 @@
 import { DashboardSidebar } from '@/components/dashboard-sidebar';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
   title: 'Dashboard | OpsFlow',
   description: 'OpsFlow Admin Dashboard - Honey\'s Property Management & Services',

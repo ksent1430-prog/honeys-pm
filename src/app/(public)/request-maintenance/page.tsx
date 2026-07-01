@@ -132,7 +132,7 @@ export default function RequestMaintenancePage() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="issueType">Issue Category</Label>
-                    <Select onValueChange={(value) => setValue("issueType", value)}>
+                    <Select onValueChange={(value: string) => setValue("issueType", value)}>
                       <SelectTrigger>
                         <SelectValue placeholder="Select category" />
                       </SelectTrigger>
@@ -157,7 +157,7 @@ export default function RequestMaintenancePage() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="urgency">Urgency Level</Label>
-                    <Select onValueChange={(value) => setValue("urgency", value)}>
+                    <Select onValueChange={(value: string) => setValue("urgency", value)}>
                       <SelectTrigger>
                         <SelectValue placeholder="Select urgency" />
                       </SelectTrigger>

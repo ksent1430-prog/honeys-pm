@@ -114,7 +114,7 @@ export default function RequestInspectionPage() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="inspectionType">Inspection Type</Label>
-                    <Select onValueChange={(value) => setValue("inspectionType", value)}>
+                    <Select onValueChange={(value: string) => setValue("inspectionType", value)}>
                       <SelectTrigger>
                         <SelectValue placeholder="Select type" />
                       </SelectTrigger>

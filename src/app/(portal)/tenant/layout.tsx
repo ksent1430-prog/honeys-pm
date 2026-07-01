@@ -57,7 +57,7 @@ export default function TenantPortalLayout({
               <Bell className="h-5 w-5" />
               <span className="absolute top-1 right-1 size-2 bg-red-500 rounded-full border-2 border-white" />
             </Button>
-            <UserButton afterSignOutUrl="/" />
+            <UserButton />
           </div>
         </div>
       </header>
